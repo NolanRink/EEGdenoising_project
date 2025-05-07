@@ -1,0 +1,24 @@
+name: eegdenoise
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=12.8
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - tensorboard
+  - pytest
+  - pip
+  - pip:
+    - tqdm
+    - typing-extensions 
