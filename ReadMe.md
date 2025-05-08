@@ -7,10 +7,10 @@ The slice has python 3.8.10 installed
 ssh -F .\fabric_ssh_config -i .\newsliver ubuntu@2001:400:a100:3060:f816:3eff:fedb:ea85
 
 ## Install Drivers for A30:
-sudo apt update
-sudo apt install nvidia-driver-570
-sudo reboot
-nvidia-smi #confirms installation
+sudo apt update\
+sudo apt install nvidia-driver-570\
+sudo reboot\
+nvidia-smi #confirms installation\
 
 
 
